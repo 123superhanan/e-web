@@ -1,0 +1,67 @@
+.shopTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+  }
+  .shopTitle h1::before{
+    content: "Abbasids Store";
+    color: transparent;
+    -webkit-text-stroke: 1px  #b9ab99;
+    position: absolute;
+    z-index: -1;
+    bottom: 11%;
+    left: 25%;
+  }
+  .products {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 5px;
+  }
+  
+  .product {
+    border-radius: 15px;
+    width:200px;
+    height: 250px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+  }
+  
+  .product img {
+    width: 250px;
+  }
+  
+  .product .description {
+    text-align: center;
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+   
+  }
+  
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid #131313;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+  }
+  
+  .addToCartBttn:hover {
+    background-color: #131313;
+    color: white;
+    cursor: pointer;
+  }
