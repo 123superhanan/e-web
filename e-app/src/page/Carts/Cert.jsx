@@ -20,12 +20,12 @@ const Cert = () => {
         </div>
        
         <div className="cartItems">
-{PRODUCTS.map((product) =>{
-  if(cartItems[product.id] !== 0){
-    return <CartItem data={product}/>
-  }
-})}
-      
+                {PRODUCTS.map((product) =>{
+                  if(cartItems[product.id] !== 0){
+                    return <CartItem data={product}/>
+                  }
+                })}
+                      
         </div>
 <div className="checkout">
   <p>SubTotal :$</p>

@@ -50,5 +50,10 @@ export const  PRODUCTS = [
         productName: "tops cap",
         price: 19,
         productImage: product8
-    },
+    },{
+        id:9,
+        productName: "tops ",
+        price: 189,
+        productImage: product5
+    }
 ]
